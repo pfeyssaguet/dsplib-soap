@@ -1,0 +1,57 @@
+{
+    "hash": "e3dc7d904939695dc984e8ab00513a71",
+    "packages": [
+        {
+            "name": "dsplib/dsplib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfeyssaguet/dsplib.git",
+                "reference": "ab55bef0c4fb81b24882f488670e44b072b9fcfd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfeyssaguet/dsplib/zipball/ab55bef0c4fb81b24882f488670e44b072b9fcfd",
+                "reference": "ab55bef0c4fb81b24882f488670e44b072b9fcfd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "1.2.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DspLib": "src/",
+                    "DspLib\\Test": "test/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "PHP Library with useful classes",
+            "support": {
+                "source": "https://github.com/pfeyssaguet/dsplib/tree/master",
+                "issues": "https://github.com/pfeyssaguet/dsplib/issues"
+            },
+            "time": "2013-04-07 10:00:14"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dsplib/dsplib": 20
+    },
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": [
+
+    ]
+}
